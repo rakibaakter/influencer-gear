@@ -17,12 +17,12 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
-    .banner-img,
-    .banner-content,
+    .banner-content{
+        text-align: center;
+    }
     .sponsor-section{
         width: 90%;
         margin: auto;
-        text-align: center;
     }
     .banner-title{
         font-size: 2rem;
@@ -30,6 +30,8 @@
     .sponsor-section{
         flex-wrap: wrap;
         border: none;
+        justify-content: center;
+        gap: 10px;
     }
     
 }
