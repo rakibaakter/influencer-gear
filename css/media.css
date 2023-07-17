@@ -18,7 +18,8 @@
         gap: 20px;
     }
     .banner-img,
-    .banner-content{
+    .banner-content,
+    .sponsor-section{
         width: 90%;
         margin: auto;
         text-align: center;
@@ -26,4 +27,9 @@
     .banner-title{
         font-size: 2rem;
     }
+    .sponsor-section{
+        flex-wrap: wrap;
+        border: none;
+    }
+    
 }

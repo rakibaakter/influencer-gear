@@ -87,3 +87,18 @@ nav a {
 .banner-img img{
     width: 100%;
 }
+.sponsor-section{
+    width: 80%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(7, 1fr); */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+.sponsor-section img{
+    
+}
