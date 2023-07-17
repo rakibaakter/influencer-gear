@@ -20,18 +20,18 @@
     .banner-content{
         text-align: center;
     }
-    .sponsor-section{
-        width: 90%;
-        margin: auto;
-    }
     .banner-title{
         font-size: 2rem;
     }
+    .banner-img{
+        margin-bottom: 50px;
+    }
     .sponsor-section{
+        margin-top: 50px;
         flex-wrap: wrap;
         border: none;
         justify-content: center;
-        gap: 10px;
+        gap: 15px;
     }
     
 }

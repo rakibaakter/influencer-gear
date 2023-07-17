@@ -79,12 +79,13 @@ nav a {
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 .banner-img img{
     width: 100%;
 }
 .sponsor-section{
-    width: 80%;
+    width: fit-content;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     margin: auto;
@@ -93,4 +94,8 @@ nav a {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+}
+.sponsor-section img{
+    height: 20px;
+    width: 80px;
 }
