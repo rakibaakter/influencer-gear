@@ -173,3 +173,23 @@ main{
 .feature-img img{
     width: 100%;
 }
+/* footer section */
+footer{
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+footer p, footer span{
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+.social-media{
+    font-size: 1rem;
+}
+.fa-brands{
+    margin: 5px;
+    padding: 5px;
+    background: rgb(58, 58, 58);
+    border-radius: 50%;
+}
