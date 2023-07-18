@@ -1,7 +1,7 @@
 /*  mobile responsive */
 @media screen and (max-width:576px) {
     header{
-        padding: 20px;
+        padding: 15px;
 
     }
     nav{
@@ -10,7 +10,7 @@
     }
     .menu-bar,
     .menu-bar > ul{
-        gap: 15px;
+        gap: 10px;
     }
     .banner-section{
         margin-top: 50px;
@@ -18,10 +18,11 @@
         gap: 20px;
     }
     .banner-content{
+        width: 100%;
         text-align: center;
     }
     .banner-title{
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
     .banner-img{
         margin-bottom: 50px;
@@ -31,7 +32,7 @@
         flex-wrap: wrap;
         border: none;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
     }
     
 }

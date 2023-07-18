@@ -20,7 +20,7 @@
 /* hedear section */
 header{
     width: auto;
-    padding: 50px 120px;
+    padding: 80px 120px;
 }
 nav{
     display: flex;
@@ -29,12 +29,12 @@ nav{
 }
 .menu-bar{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 .menu-bar > ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 nav a {
     text-decoration: none;
@@ -64,11 +64,15 @@ nav a {
 .banner-section{
     margin-top: 50px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
+.banner-content{
+    width: 50%;
+}
 .banner-title{
     color: #3A3A3A;
-    font-size: 2rem;
+    font-size: 3.5rem;
 
 }
 .banner-content > .btn-primary{
@@ -85,7 +89,7 @@ nav a {
     width: 100%;
 }
 .sponsor-section{
-    width: fit-content;
+    /* width: fit-content; */
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     margin: auto;
@@ -94,8 +98,4 @@ nav a {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-}
-.sponsor-section img{
-    height: 20px;
-    width: 80px;
 }
